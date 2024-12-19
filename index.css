@@ -1,0 +1,113 @@
+/* Image Styling */
+.main_area img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Nav Bar Styling */
+.nav_bar {
+    display: flex; /* Enables Flexbox */
+    justify-content: space-between; /* Aligns items with space between */
+    align-items: center; /* Vertically centers items */
+    padding: 0px 20px; /* Adds padding inside the navbar */
+    background-color: #EF0107; /* Background color for the header */
+    font-size: 20px; /* changing font size */
+}
+
+#nav_bar_text {
+    display: flex; /* Makes the navigation links inline */
+    list-style: none; /* Removes bullet points */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
+
+#nav_bar_text li {
+    margin-left: 10px; /* Adds space between nav links */
+    border-radius: 25px;
+}
+
+#nav_bar_text a {
+    text-decoration: none; /* Removes underline from links */
+    color: white; /* Sets text color for links */
+    font-size: 20px; /* Sets font size for links */
+    padding: 5px 20px; /* Adds clickable padding */
+    background-color: transparent; /* Removes background for links */
+}
+
+#nav_bar_text a:hover, .nav_bar a:hover {
+    color: #063672; /* Changes color on hover */
+    transition: 0.3s ease; /* Smooth hover transition */
+}
+
+h1 a {
+    text-decoration: none; /* Removes underline from the title link */
+    color: white; /* Sets title color */
+}
+
+
+header{
+    background-color: #EF0107;
+    padding: 2px 0;
+    
+}
+
+li{
+    background-color:#9C824A;
+}
+
+/* Button Styling */
+.main_area{
+    text-align: center;
+}
+
+button{
+    background-color: #EF0107;
+    border: none;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 25px;
+    margin: 20px auto;
+    display: flex;
+}
+
+button {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover{
+    background-color: #9C824A;
+    color: #063672;
+    transition: background-color 0.3s ease;
+}
+
+.main_area h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+/* Credits */
+.credits {
+    text-align: center; /* Centers the text inside the credits div */
+    font-size: 14px; /* Optional: Adjust font size for credits */
+    margin-top: 20px; /* Optional: Adds spacing above the credits */
+}
+
+/* Fonts */
+
+h1, h2, h4, li, .main_area a, .nav_bar, button {
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    font-family: 'Arsenal', sans-serif;
+}

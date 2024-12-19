@@ -1,0 +1,143 @@
+/* Nav Bar Styling */
+.nav_bar {
+    display: flex; /* Enables Flexbox */
+    justify-content: space-between; /* Aligns items with space between */
+    align-items: center; /* Vertically centers items */
+    padding: 0px 20px; /* Adds padding inside the navbar */
+    background-color: #EF0107; /* Background color for the header */
+    font-size: 20px; /* changing font size */
+}
+
+#nav_bar_text {
+    display: flex; /* Makes the navigation links inline */
+    list-style: none; /* Removes bullet points */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
+
+#nav_bar_text li {
+    margin-left: 10px; /* Adds space between nav links */
+    border-radius: 25px;
+}
+
+#nav_bar_text a {
+    text-decoration: none; /* Removes underline from links */
+    color: white; /* Sets text color for links */
+    font-size: 20px; /* Sets font size for links */
+    padding: 5px 20px; /* Adds clickable padding */
+    background-color: transparent; /* Removes background for links */
+}
+
+#nav_bar_text a:hover, .nav_bar a:hover {
+    color: #063672; /* Changes color on hover */
+    transition: 0.3s ease; /* Smooth hover transition */
+}
+
+h1 a {
+    text-decoration: none; /* Removes underline from the title link */
+    color: white; /* Sets title color */
+}
+
+
+header{
+    background-color: #EF0107;
+    padding: 2px 0;   
+}
+
+li{
+    background-color:#9C824A;
+}
+
+/* Button Styling */
+.main_area{
+    text-align: center;
+}
+
+button{
+    background-color: #EF0107;
+    border: none;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 25px;
+    margin: 20px auto;
+    display: flex;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+button:hover{
+    background-color: #9C824A;
+    color: #063672;
+    transition: background-color 0.3s ease;
+}
+
+.main_area h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#staff a{
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+/* Fonts */
+
+h1, h2, li, .main_area a, .nav_bar{
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    font-family: 'Arsenal', sans-serif;
+}
+
+/* Table Style */
+table, tr, td, th{
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+table, td{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    text-align: center;
+    background-color: #063672;
+    color: white;
+}
+
+p{
+    text-align: center;
+}
+
+#top_scorers table, #most_appearances table, #league_titles table, #fa_titles table, #league_cup_titles table{
+    width: auto;
+}
+
+.invincible{
+    background-color: gold;
+}
+
+/* Images */
+#top_scorers img, #most_appearances img, #league_titles img, #fa_title img, #league_cup_titles img{
+    width: 300px;
+    height: auto;
+}
+
+/* Containers */
+.scorers-content, .appearance-content, .league-titles, .fa-titles, .league-cup-titles{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
